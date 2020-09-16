@@ -1,0 +1,58 @@
+{
+  "id": "2034542",
+  "name": "exercise",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "428864",
+      "name": "share",
+      "font_class": "share",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "1420869",
+      "name": "good",
+      "font_class": "good",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "1444909",
+      "name": "message-reply",
+      "font_class": "message-reply",
+      "unicode": "e7f1",
+      "unicode_decimal": 59377
+    },
+    {
+      "icon_id": "8776823",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "8776842",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8776843",
+      "name": "edit",
+      "font_class": "edit",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "8776871",
+      "name": "link",
+      "font_class": "link",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}

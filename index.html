@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>掘金</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./iconfonts/iconfont.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body onscroll="initScroll()">
+    <div class="container">
+      <div class="header-box">
+        <div class="serch-bar">
+          <div class="logo">
+            <img
+              src="./img/logo.svg"
+              alt=""
+              onclick="openMainMenu(event)"
+              class="home-page"
+            />
+          </div>
+          <div class="title-list">
+            <ul onclick="openMainMenu(event)">
+              <li class="home-page active">
+                <a>首页</a>
+              </li>
+              <li><a>沸点</a></li>
+              <li class="topic"><a>话题</a></li>
+              <li class="brochure"><a>小册</a></li>
+              <li><a>活动</a></li>
+              <li class="search-input">
+                <form class="search-form">
+                  <input
+                    type="text"
+                    class="input-text"
+                    placeholder="探索掘金"
+                  />
+                  <i class="iconfont icon-search"></i>
+                </form>
+              </li>
+              <li><button class="add-group">写文章</button></li>
+              <li class="login"><button class="login-btn">登录</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="sub-title homepage-sub-title">
+          <ul>
+            <li class="hover-cls active">推荐</li>
+            <li class="hover-cls">后端</li>
+            <li class="hover-cls">前端</li>
+            <li class="hover-cls">Android</li>
+            <li class="hover-cls">iOS</li>
+            <li class="hover-cls">人工智能</li>
+            <li class="hover-cls">开发工具</li>
+            <li class="hover-cls">代码人生</li>
+            <li class="hover-cls">阅读</li>
+          </ul>
+        </div>
+        <div class="sub-title brochure-sub-title">
+          <ul>
+            <li class="hover-cls active">全部</li>
+            <li class="hover-cls">后端</li>
+            <li class="hover-cls">前端</li>
+            <li class="hover-cls">Android</li>
+            <li class="hover-cls">iOS</li>
+            <li class="hover-cls">人工智能</li>
+            <li class="hover-cls">开发工具</li>
+            <li class="hover-cls">代码人生</li>
+            <li class="hover-cls">阅读</li>
+          </ul>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="content-box">
+          <div class="content-title">
+            <ul>
+              <li class="hover-cls hot active" onclick="openSubMenu(200,event)">
+                热门
+              </li>
+              <li class="hover-cls newest" onclick="openSubMenu(300,event)">
+                最新
+              </li>
+              <li class="hover-cls heat" onclick="openSubMenu(3,event)">
+                热榜
+              </li>
+            </ul>
+          </div>
+          <div class="content"></div>
+        </div>
+        <div class="ad-box">
+          <img src="./img/ad1.image" alt="" />
+          <img src="./img/ad2.image" alt="" />
+        </div>
+        <div class="topic-box"></div>
+        <div class="brochure-box">
+          <div class="brochure-list"></div>
+          <div class="ad-box"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/locale/zh-cn.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.8.35/plugin/relativeTime.min.js"></script>
+    <script>
+      dayjs.locale('zh-cn');
+      dayjs.extend(window.dayjs_plugin_relativeTime);
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
